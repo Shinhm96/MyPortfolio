@@ -322,7 +322,7 @@ input#menu {
 
 /* WHO */
 .section--who {
-  height: 80vh;
+  height: 1000px;
   padding-top: 200px;
   background: var(--background2-color);
 }
