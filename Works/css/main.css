@@ -283,7 +283,7 @@ input#menu {
 .accordion__container .box_container {
   width: 100%;
   height: 100%;
-  border: 1px dashed tomato;
+  /* border: 1px dashed tomato; */
   z-index: 100;
 }
 
@@ -314,13 +314,13 @@ input#menu {
 }
 
 .accordion__container .box5 {
-  background-image: url("#");
+  background-image: url("../../img/calendar/calendar_main.jpg");
   background-position: right;
   background-size: cover;
 }
 
 .accordion__container .box6 {
-  background-image: url("#");
+  background-image: url("../../img/print/print_main.jpg");
   background-position: right;
   background-size: cover;
 }
@@ -702,6 +702,157 @@ input#menu {
   z-index: 2;
 }
 
+.works_container .works_mainPhoto.work5 {
+  background-image: url(../../img/calendar/calendar_main.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section8 li:nth-child(1) {
+  background-image: url(../../img/calendar/11.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section8 li:nth-child(2) {
+  background-image: url(../../img/calendar/12.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section8 li:nth-child(3) {
+  background-image: url(../../img/calendar/9.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section8 li:nth-child(4) {
+  background-image: url(../../img/calendar/10.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section8 li:nth-child(5) {
+  background-image: url(../../img/calendar/7.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section8 li:nth-child(6) {
+  background-image: url(../../img/calendar/8.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section8 li:nth-child(7) {
+  background-image: url(../../img/calendar/5.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section8 li:nth-child(8) {
+  background-image: url(../../img/calendar/6.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section8 li:nth-child(9) {
+  background-image: url(../../img/calendar/3.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section8 li:nth-child(10) {
+  background-image: url(../../img/calendar/4.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section8 li:nth-child(11) {
+  background-image: url(../../img/calendar/1.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section8 li:nth-child(12) {
+  background-image: url(../../img/calendar/2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.works_container .works_mainPhoto.work6 {
+  background-image: url(../../img/print/print_main.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: 2;
+}
+
+.work_section9 li:nth-child(1) {
+  background-image: url(../../img/print/1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section9 li:nth-child(2) {
+  background-image: url(../../img/print/2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section10 li:nth-child(1) {
+  background-image: url(../../img/print/3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section10 li:nth-child(2) {
+  background-image: url(../../img/print/4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section10 li:nth-child(3) {
+  background-image: url(../../img/print/5.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section10 li:nth-child(4) {
+  background-image: url(../../img/print/6.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section10 li:nth-child(5) {
+  background-image: url(../../img/print/7.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section10 li:nth-child(6) {
+  background-image: url(../../img/print/8.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section10 li:nth-child(7) {
+  background-image: url(../../img/print/9.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section10 li:nth-child(8) {
+  background-image: url(../../img/print/10.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.work_section10 li:nth-child(9) {
+  background-image: url(../../img/print/11.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 .works_container .works_project {
   width: 100%;
   text-align: left;
@@ -873,9 +1024,18 @@ input#menu {
 .works_container
   .work_section3
   .color_container
-  .color.work3:last-child
+  .color.work6:first-child
   .color_circle {
-  background: #ff9c52;
+  background: #446dad;
+  margin-bottom: 10px;
+}
+
+.works_container
+  .work_section3
+  .color_container
+  .color.work6:last-child
+  .color_circle {
+  background: #e45a67;
   margin-bottom: 10px;
 }
 
@@ -905,6 +1065,11 @@ input#menu {
 
 .works_container .work_section4 {
   margin-top: 800px;
+  text-align: left;
+}
+
+.works_container .work_section4.work6 {
+  margin-top: 700px !important;
   text-align: left;
 }
 
@@ -942,7 +1107,90 @@ input#menu {
   line-height: 1.5;
 }
 
-.dim {
+.works_container .work_section7 {
+  margin-top: 80px;
+  text-align: left;
+}
+
+.works_container .work_section7 ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.works_container .work_section7 .poster_container li {
+  border: dashed #048ba8;
+  width: 300px;
+  height: 400px;
+}
+
+.works_container .work_section7 .poster_container.poster1 .li {
+  background-image: url();
+  background-size: cover;
+}
+
+.works_container .work_section7 .poster_container.poster2 .li {
+  background-image: url();
+  background-size: cover;
+}
+
+.works_container .work_section7 .poster_container.poster3 .li {
+  background-image: url();
+  background-size: cover;
+}
+
+.works_container .work_section7 .poster_container.poster3 {
+  margin-bottom: 100px;
+}
+
+.works_container .work_section8 {
+  margin-top: 80px;
+  text-align: left;
+}
+
+.works_container .work_section8 ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+}
+
+.works_container .work_section8 ul li {
+  border: dashed #048ba8;
+  width: 300px;
+  height: 400px;
+  margin-bottom: 30px;
+}
+
+.works_container .work_section9 ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.works_container .work_section9 ul li:first-child {
+  border: solid #446dad 1px;
+  height: 500px;
+  width: 350px;
+}
+
+.works_container .work_section9 ul li:last-child {
+  border: solid #e45a67 1px;
+  height: 500px;
+  width: 350px;
+}
+
+.works_container .work_section10 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.works_container .work_section10 ul {
+}
+
+.works_container .work_section10 ul li {
+  height: 450px;
+  width: 100%;
+}
+
+.works_container .dim {
   position: absolute;
   left: 0;
   top: 0;
@@ -956,7 +1204,7 @@ input#menu {
 
 .popup:target + .dim {
   opacity: 1;
-  z-index: 30000;
+  z-index: 40000;
 }
 
 #pop1 .popup_container {
