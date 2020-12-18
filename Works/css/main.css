@@ -1110,6 +1110,11 @@ input#menu {
   text-align: left;
 }
 
+.works_container .work_section4 iframe {
+  width: 100%;
+  height: 450px;
+}
+
 .works_container .work_section4.work6 {
   margin-top: 700px !important;
   text-align: left;
