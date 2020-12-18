@@ -702,6 +702,48 @@ input#menu {
   z-index: 2;
 }
 
+.work_section7 .poster_container.poster1 li:first-child {
+  background-image: url(../../img/poster/1.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.work_section7 .poster_container.poster1 li:last-child {
+  background-image: url(../../img/poster/2.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.work_section7 .poster_container.poster2 li:first-child {
+  background-image: url(../../img/poster/3.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.work_section7 .poster_container.poster2 li:last-child {
+  background-image: url(../../img/poster/4.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.work_section7 .poster_container.poster3 li:first-child {
+  background-image: url(../../img/poster/5.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.work_section7 .poster_container.poster3 li:last-child {
+  background-image: url(../../img/poster/6.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .works_container .works_mainPhoto.work5 {
   background-image: url(../../img/calendar/calendar_main.jpg);
   background-position: center;
@@ -1118,9 +1160,8 @@ input#menu {
 }
 
 .works_container .work_section7 .poster_container li {
-  border: dashed #048ba8;
-  width: 300px;
-  height: 400px;
+  width: 400px;
+  height: 500px;
 }
 
 .works_container .work_section7 .poster_container.poster1 .li {
